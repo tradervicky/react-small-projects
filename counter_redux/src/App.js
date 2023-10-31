@@ -7,9 +7,9 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
-      <button onClick={()=> dispatch(decNumber())}>Dec -</button>
+      <button onClick={()=> dispatch(decNumber(2))}>Dec -</button>
       <input type="text" value={myState} />
-      <button onClick={()=>  dispatch(incNumber())}>Inc +</button>
+      <button onClick={()=>  dispatch(incNumber(2))}>Inc +</button>
     </div>
   );
 }
