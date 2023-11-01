@@ -2,7 +2,9 @@
 import './App.css';
 import { UseSelector, useDispatch, useSelector } from 'react-redux';
 import {incNumber, decNumber} from './action/index';
+import { useState } from 'react';
 function App() {
+  const [data, setData] =useState(0)
   const myState = useSelector((state)=> state.Counter)
   const dispatch = useDispatch();
   return (
