@@ -1,0 +1,27 @@
+.InputBoxMain{
+    display: flex;
+    width: 100%;
+    
+
+}
+.InputBoxLabel{
+    width: 30%;
+}
+.InputTextbox{
+    width: 40%;
+}
+@media screen and (max-width: 460px) {
+
+.InputBoxMain{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.InputBoxLabel{
+    width: 90%;
+}
+.InputTextbox{
+    width: 90%;
+}
+
+}

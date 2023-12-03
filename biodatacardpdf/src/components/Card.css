@@ -1,0 +1,149 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.biodataContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .biodataContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .biodataContainer {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .biodataContainer {
+      padding: 10px;
+    }
+  }
+  .printContainer{
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 25%;
+    padding: 20px;
+    margin-bottom: 25px;
+    
+    
+
+  }
+  .Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(68, 154, 224);
+  }
+  .Navbar p{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+  }
+  .BodyContent{
+    display: flex;
+    padding:0  20px 0 0;
+    
+    
+  }
+  .sidebar{
+    height: calc(100vh + 100px);
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    width: 25%;
+    padding-left: 0;
+    background-color: rgb(230, 228, 228);
+  }
+  .contact, .Address{
+    text-align: center;
+    display: flex;
+    padding: 20px, 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contact , .Address span{
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+.mainContentBody{
+    width: 75%;
+    padding: 20px 10px 10px 20px;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+.DetailSepration{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+
+}
+.DetailSepration p{
+    width: 60%;
+  
+}
+.DetailSepration span{
+    width: 40%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+   
+}
+.btn button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #488df6;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.btn button:hover{
+    opacity: 0.7;
+}
+.footerContainer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .brandName {
+    font-weight: bold;
+    color: #ffd700; 
+  }
+  
