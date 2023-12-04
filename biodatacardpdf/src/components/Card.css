@@ -33,15 +33,18 @@
   }
   .printContainer{
     
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    
     margin: 0 25%;
     padding: 20px;
+    margin-bottom: 25px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    padding: 20px;
     margin-bottom: 25px;
-    
-    
-
+    width: 1024px;
+    height: fit-content;
   }
   .Navbar{
     display: flex;

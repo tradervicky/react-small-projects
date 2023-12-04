@@ -229,6 +229,12 @@ function Card() {
           onChange={(value) => handleChange("language", value)}
         />
       </div>
+      <hr />
+      <div className="btn">
+      <button onClick={() => generatePDF(targetRef, {filename: 'page.pdf'})}>Download PDF</button>
+
+      </div>
+      <hr />
       <div className="printContainer" ref={targetRef}>
         <div className="Navbar">
           <p>{data.Name}</p>
@@ -344,12 +350,7 @@ function Card() {
         </div>
       
       </div>
-      <hr />
-      <div className="btn">
-      <button onClick={() => generatePDF(targetRef, {filename: 'page.pdf'})}>Download PDF</button>
-
-      </div>
-      <hr />
+      
 
       <footer className="footerContainer">
       <div className="footerContent">
